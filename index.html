@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wedding Invitation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- simply coundown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- LIGHTBOX -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- icons bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-black">
+      <main>
+        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h1>Darwin Loher & Ririn Harnita</h1>
+        <p>Akan Melaksanakan Resepsi Pernikahan Pada:</p>
+        <div class="simply-countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-md bg-body-transparant sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">DARIN</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DARIN</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- AKHIR NAVBAR -->
+
+    <!-- HOME -->
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan Pada 03 Oktober 2024 di Payamaram, Kute Siantan</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan kami</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Darwin Loher</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem provident minima aperiam libero repellendus praesentium!</p>
+                <p>
+                  Putra dari Bpk. Lorem <br />
+                  dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+
+              <div class="col-4">
+                <img src="img/darwin.jpg" alt="Darwin Loher" class="img-responsive rounded-circle" />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"> <i class="bi bi-suit-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/ririn.jpg" alt="Ririn Harnita" class="img-responsive rounded-circle" />
+              </div>
+              <div class="col-8">
+                <h3>Ririn Harnita</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem provident minima aperiam libero repellendus praesentium!</p>
+                <p>
+                  Putra dari Bpk. Lorem <br />
+                  dan <br />
+                  Ibu Ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR HOME -->
+
+    <!-- INFO -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat:Lapangan Volly Gunung Cak Desa Payamaram, Kute Siantan</p>
+            <a href="https://maps.app.goo.gl/8wiRjhCaqBc2dHqk9" target="_blank" class="btn btn-light btn-sm">Klik Untuk Membuka Map</a>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00-10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Rabu, 01 Oktober 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad berlangsung diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>10.00-Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Kamis, 02 Oktober 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad berlangsung diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR INFO -->
+
+    <!-- STORY -->
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Cerita cinta Kami</span>
+            <h2>Cerita kami</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia labore tempore odit pariatur quam illum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/mts.jpg)"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heafing">
+                    <h3>Pertama Bertemu</h3>
+                    <span>12 Oktober 2011</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis laudantium accusamus ea! Consequatur, tempora quibusdam?</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300)"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heafing">
+                    <h3>Mulai Serius</h3>
+                    <span>12 Oktober 2020</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis laudantium accusamus ea! Consequatur, tempora quibusdam?</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/DSC_0065_1.JPG)"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heafing">
+                    <h3>Tunangan</h3>
+                    <span>12 September 2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis laudantium accusamus ea! Consequatur, tempora quibusdam?</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR STORY -->
+
+    <section id="gallery" class="gallery">
+      <div class="con">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memori Kisah Kami</span>
+            <h2>Galeri Foto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia labore tempore odit pariatur quam illum.</p>
+          </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0059_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 1" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0059_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0069_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 2" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0069_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0070_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 3" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0070_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0073_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 4" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0073_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0079_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 5" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0079_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/DSC_0080_1.JPG" data-toggle="lightbox" data-caption="Darwin & Ririn 6" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/DSC_0080_1.JPG" alt="Darwin & Ririn" class="img-fluid w-100 rounded" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- countdown -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 10, // required
+        day: 1, // required
+        hours: 8, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+    <!-- akhir countdown -->
+    <!-- LIGHTBOX -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+  </body>
+</html>
